@@ -5,13 +5,13 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Work from './components/Work';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="Header">
         <Header />
       </div>
