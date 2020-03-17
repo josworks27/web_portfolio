@@ -16,5 +16,21 @@ export default {
       contents: ['b', 'b', 'b'],
     },
   ],
+
   // Contact
+  contactEmail: 'josworks27@gmail.com',
+  social: [
+    {
+      name: 'Github',
+      url: 'https://github.com/josworks27',
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/josworks27',
+    },
+    {
+      name: 'Blog',
+      url: '​https://velog.io/@josworks27',
+    },
+  ],
 };

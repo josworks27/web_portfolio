@@ -7,8 +7,8 @@ function Project({ title, period, contents }) {
       <h1>{title}</h1>
       <div>{period}</div>
       <ul>
-        {contents.map((content) => (
-          <li>{content}</li>
+        {contents.map((content, index) => (
+          <li key={index}>{content}</li>
         ))}
       </ul>
     </div>
