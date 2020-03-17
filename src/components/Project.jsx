@@ -1,10 +1,16 @@
 import React from 'react';
 
-function Project(props) {
+function Project({ title, period, contents }) {
+  // console.log('?', contents);
   return (
     <div>
-      <h1>{props.title}</h1>
-      <div>{props.period}</div>
+      <h1>{title}</h1>
+      <div>{period}</div>
+      <ul>
+        {contents.map((content) => (
+          <li>{content}</li>
+        ))}
+      </ul>
     </div>
   );
 }

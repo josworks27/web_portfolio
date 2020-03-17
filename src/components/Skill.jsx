@@ -6,7 +6,7 @@ function Skill() {
   return (
     <div>
       <h1>Skills</h1>
-      <p className="SkillContent">
+      <div className="SkillContent">
         <h2>Strong</h2>
         JavaScript, Node.js, Express.js, Git
         <br />
@@ -16,7 +16,7 @@ function Skill() {
         <h2>Tools</h2>
         Slack, GitHub, Visual Studio Code, Postman
         <br />
-      </p>
+      </div>
     </div>
   );
 }
