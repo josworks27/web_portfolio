@@ -8,7 +8,9 @@ function Header() {
     <div>
       <h1 className="Header-background">IKU_JO</h1>
       <h1 className="Header-greeting">
-        <Zoom cascade>조성철(IKU_JO) 포트폴리오.</Zoom>
+        <Zoom cascade>
+          <div>Jo Seong-cheol's Portfolio.</div>
+        </Zoom>
       </h1>
     </div>
   );

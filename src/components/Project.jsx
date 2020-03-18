@@ -1,16 +1,33 @@
 import React from 'react';
+import ProjectLeft from './ProjectLeftEntry';
+import ProjectRightEntry from './ProjectRightEntry';
 
-function Project({ title, period, contents }) {
-  // console.log('?', contents);
+function Project({
+  title,
+  period,
+  description,
+  type,
+  role,
+  feature,
+  techStack,
+  imgSrc,
+  github,
+}) {
   return (
     <div>
-      <h1>{title}</h1>
-      <div>{period}</div>
-      <ul>
-        {contents.map((content, index) => (
-          <li key={index}>{content}</li>
-        ))}
-      </ul>
+      <ProjectLeft
+        title={title}
+        type={type}
+        role={role}
+        period={period}
+        img={imgSrc}
+      />
+      <ProjectRightEntry
+        description={description}
+        feature={feature}
+        techStack={techStack}
+        github={github}
+      />
     </div>
   );
 }
