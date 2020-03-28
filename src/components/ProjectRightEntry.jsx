@@ -38,5 +38,3 @@ function ProjectRightEntry({ description, feature, techStack, github }) {
 }
 
 export default ProjectRightEntry;
-
-// description, feature, techStack, github

@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 function Header() {
   return (
     <div>
-      <h1 className="Header-background">IKU_JO</h1>
+      <div className="Background">IKU_JO</div>
       <h1 className="Header-greeting">
         <Zoom cascade>
           <div>Jo Seong-cheol's Portfolio.</div>

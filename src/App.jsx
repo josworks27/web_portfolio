@@ -12,20 +12,19 @@ import Skill from './components/Skill';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <div className="Header">
+      <div id="Header">
         <Header />
       </div>
-      <div className="About">
+      <div id="About">
         <About />
       </div>
-      <div className="Skill">
+      <div id="Skill">
         <Skill />
       </div>
-      <div className="Work">
+      <div id="Work">
         <Work />
       </div>
-      <div className="Contact">
+      <div id="Footer">
         <Contact />
       </div>
     </div>

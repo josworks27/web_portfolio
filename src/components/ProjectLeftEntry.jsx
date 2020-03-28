@@ -13,5 +13,3 @@ function ProjectLeftEntry({ title, type, role, period, imgSrc }) {
 }
 
 export default ProjectLeftEntry;
-
-// title, type, role, period, img
