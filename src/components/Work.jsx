@@ -8,7 +8,7 @@ function Work() {
   return (
     <div>
       <h1>Projects</h1>
-      <div>
+      <div className="Work-content">
         {data.projectData.map((project) => (
           <Project
             key={project.id}

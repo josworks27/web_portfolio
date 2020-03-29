@@ -2,10 +2,10 @@ import React from 'react';
 
 function ProjectRightEntry({ description, feature, techStack, github }) {
   return (
-    <div>
+    <div className="Project-right-wrap">
       <div>
         <h1>Description</h1>
-        <div>{description}</div>
+        <p>{description}</p>
       </div>
       <div>
         <h1>What did I Do</h1>
@@ -27,7 +27,7 @@ function ProjectRightEntry({ description, feature, techStack, github }) {
         <h1>Github</h1>
         <ul>
           {github.map((data, index) => (
-            <a href={data.url} key={index}>
+            <a target="_blank" rel="noopener noreferrer" href={data.url} key={index} alt="github">
               <li>{`${data.part} Link`}</li>
             </a>
           ))}

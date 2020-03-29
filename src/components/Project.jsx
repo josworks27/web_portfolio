@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectLeft from './ProjectLeftEntry';
+import ProjectLeftEntry from './ProjectLeftEntry';
 import ProjectRightEntry from './ProjectRightEntry';
 
 function Project({
@@ -15,19 +15,23 @@ function Project({
 }) {
   return (
     <div>
-      <ProjectLeft
-        title={title}
-        type={type}
-        role={role}
-        period={period}
-        img={imgSrc}
-      />
-      <ProjectRightEntry
-        description={description}
-        feature={feature}
-        techStack={techStack}
-        github={github}
-      />
+      <div className="Project-left">
+        <ProjectLeftEntry
+          title={title}
+          type={type}
+          role={role}
+          period={period}
+          img={imgSrc}
+        />
+      </div>
+      <div className="Project-right">
+        <ProjectRightEntry
+          description={description}
+          feature={feature}
+          techStack={techStack}
+          github={github}
+        />
+      </div>
     </div>
   );
 }

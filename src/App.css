@@ -22,7 +22,7 @@ body {
   color:#9352ae;
 }
 
-#Header, #About, #Skill {
+#Header, #About, #Skill, #Work, #Footer {
   border: 1px solid red;
   width: 980px;
   margin: 20px auto;
@@ -30,7 +30,11 @@ body {
 
 .Header-greeting {
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
+}
+
+.Header-greeting span:nth-child(2){
+  color: tomato;
 }
 
 .About-content {
@@ -38,22 +42,22 @@ body {
 }
 
 .About-content p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 30px;
-  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 33px;
+  font-size: 1.04em;
 }
 
 .About-left {
-  width: 600px;
-  margin: 0 5px;
+  width: 610px;
+  margin-left: 5px;
   float: left;
   border: 1px solid red;
 }
 
 .About-right {
   width: 350px;
-  height: 450px;
-  margin: 0 5px;
+  height: 400px;
+  margin-left: 5px;
   float: left;
   border: 1px solid red;
   background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/KakaoTalk_Photo_2019-08-24-03-25-42+2.jpeg
@@ -62,6 +66,128 @@ body {
 }
 
 .About-content p span:nth-child(2) {
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold;
+  color: tomato;
+}
+
+.Skill-content {
+  overflow: hidden;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.Skill-wrap {
+  float: left;
+  width: 310px;
+  margin: 0 2px;
+}
+
+.Skill-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: tomato;
+}
+
+.Skill-list {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  font-size: 1em;
+}
+
+.Work-content {
+  overflow: hidden;
+}
+
+.Project-left {
+  border: 1px solid red;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+  font-size: 0.9em;
+  width: 350px;
+  margin: 0 5px 5px 5px;
+}
+
+.Project-right {
+  border: 1px solid red;
+  float: left;
+  width: 605px;
+  margin: 0 5px 5px 5px;
+}
+
+.Project-left-wrap div{
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+
+.Project-left-wrap h1 {
+  font-size: 1.8em;
+  color: tomato;
+}
+
+.Project-right-wrap h1 {
+  font-size: 1.3em;
+}
+
+.Project-right-wrap p {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  line-height: 23px;
+}
+
+.Project-right-wrap a {
+  color: tomato;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Project-right-wrap div ul li {
+  font-size: 0.95em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+.Project-right-wrap div:nth-child(4) ul li {
+  list-style: none;
+  float: left;
+  margin-left: 120px;
+}
+
+.Contact-content {
+  overflow: hidden;
+  border: 1px solid red;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.Contact-content li {
+  display: inline-block;
+  margin: 0 1em 0 0;
+}
+
+.Contact-content a {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Contact-mail {
+  color:black;
+  font-size: 2em;
+  margin-left: 70px;
+}
+
+.Contact-social {
+  color:tomato;
+  margin-left: 55px;
+}
+
+.footer {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid red;
+  font-family: Arial, Helvetica, sans-serif;
 }

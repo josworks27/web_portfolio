@@ -6,7 +6,7 @@ export default {
   projectData: [
     {
       id: 0,
-      title: '구독형 거주서비스 Billy Zip',
+      title: '구독형 거주 서비스 Billy Zip',
       period: '2020.01.31 ~ 2020.02.25',
       description:
         'Billy Zip은 새로운 개념의 구독형 주거 서비스 제공하는 모바일 어플리케이션 프로젝트 입니다. 이사할 때마다 전세? 월세? 보증금? 계약은 어떻게...? 부동산 매물마다 너무 복잡하지 않으신가요? Billy Zip을 이용하면 부동산 또는 집주인과의 번거롭고, 복잡한 계약 관계없이 살고 싶은 곳이 있으면 예약 후 마음 편히 거주할 수 있는 서비스입니다.',
@@ -17,7 +17,7 @@ export default {
         'JWT 토큰 인증 과정을 Express Middleware로 하는 인증체계 구축',
         'Twilio Programmable SMS API를 이용한 인증번호 문자 전송 및 인증확인 모듈 구축',
         'Socket.io를 이용해 유저 to 호스트, 유저 to 유저간 의사소통이 가능한 실시간 채팅기능 구현',
-        'TypeORM의 Active Record 방식을 통한 DB 제어와 자체 알고리즘을 이용해 하우스 검색기능 구현',
+        'TypeORM의 Active Record 방식의 DB 제어와 자체 알고리즘으로 하우스 검색기능 구현',
       ],
       techStack: [
         { part: 'Common', stack: 'TypeScript, Node.js' },
@@ -35,13 +35,13 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: '',
+      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/billyzip_logo.png',
       github: [
         {
           part: 'Client',
           url: 'https://github.com/josworks27/BillyZip_CLIENT',
         },
-        { part: 'Server', url: 'https://github.com/josworks27/STROLL_server' },
+        { part: 'Server', url: 'https://github.com/josworks27/BillyZip_SERVER' },
       ],
     },
     {
@@ -73,7 +73,7 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: '',
+      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/stroll_logo.png',
       github: [
         {
           part: 'Client',

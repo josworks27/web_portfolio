@@ -6,8 +6,12 @@ function Header() {
   return (
     <div>
       <h1 className="Header-greeting">
-        <Zoom cascade>
-          <div>Jo Seong-cheol's Portfolio.</div>
+        <Zoom top>
+          <div>
+            <span>Jo Seong-cheol's </span>
+            <span>Portfolio</span>
+            <span>.</span>
+          </div>
         </Zoom>
       </h1>
     </div>
