@@ -6,14 +6,14 @@ function Skill() {
   return (
     <div>
       <h1>Skills</h1>
-      <div className="SkillContent">
-        <h2>Strong</h2>
+      <div className="Skill-content">
+        <div>Strong</div>
         JavaScript, Node.js, Express.js, Git
         <br />
-        <h2>Experienced</h2>
+        <div>Experienced</div>
         TypeScript, React, React Native, Sequelize, TypeORM, MySQL, AWS
         <br />
-        <h2>Tools</h2>
+        <div>Tools</div>
         Slack, GitHub, Visual Studio Code, Postman
         <br />
       </div>

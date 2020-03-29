@@ -12,6 +12,7 @@ import Skill from './components/Skill';
 function App() {
   return (
     <div className="App">
+      <div className="Background">IKU_JO</div>
       <div id="Header">
         <Header />
       </div>
