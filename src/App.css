@@ -9,7 +9,7 @@ body {
 .App {
   width: 1000px;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .Background{
@@ -22,15 +22,50 @@ body {
   color:#9352ae;
 }
 
-#Header, #About, #Skill, #Work, #Footer {
-  border: 1px solid red;
+#Header {
   width: 980px;
   margin: 20px auto;
 }
 
+#Navigation {
+  position: fixed;
+  top: 215px;
+  right: 60px;
+  border-top: ridge;
+  border-bottom: ridge;
+  /* border: 1px solid red; */
+  /* width: 500px;
+  margin: 20px auto; */
+  /* overflow: hidden; */
+}
+
+#About, #Skill, #Work, #Footer {
+  /* border: 1px solid red; */
+  border-top: double;
+  width: 980px;
+  margin: 20px auto;
+}
+
+.Navigation-content li {
+  list-style: none;
+  /* float: left;; */
+  margin-right: 43px;
+  color: tomato;
+  font-size: 1em;
+  line-height: 30px;
+}
+
+.Navigation-content li:hover {
+  list-style: none;
+  float: left;;
+  margin-right: 43px;
+  color: midnightblue;
+}
+
 .Header-greeting {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4em;
+  margin-bottom: 100px;
 }
 
 .Header-greeting span:nth-child(2){
@@ -51,7 +86,7 @@ body {
   width: 610px;
   margin-left: 5px;
   float: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .About-right {
@@ -59,7 +94,7 @@ body {
   height: 400px;
   margin-left: 5px;
   float: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/KakaoTalk_Photo_2019-08-24-03-25-42+2.jpeg
   );
   background-size: cover;
@@ -100,7 +135,7 @@ body {
 }
 
 .Project-left {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   float: left;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 21px;
@@ -110,7 +145,7 @@ body {
 }
 
 .Project-right {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   float: left;
   width: 605px;
   margin: 0 5px 5px 5px;
@@ -157,7 +192,7 @@ body {
 
 .Contact-content {
   overflow: hidden;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 500px;
   margin: 0 auto;
 }
@@ -174,9 +209,9 @@ body {
 }
 
 .Contact-mail {
-  color:black;
-  font-size: 2em;
-  margin-left: 70px;
+  color:midnightblue;
+  font-size: 2.2em;
+  margin-left: 50px;
 }
 
 .Contact-social {
@@ -188,6 +223,18 @@ body {
   width: 200px;
   margin: 0 auto;
   margin-top: 30px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: midnightblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Contact-mail:hover {
+  font-size: 2.2em;
+  margin-left: 50px;
+  color: tomato;
 }

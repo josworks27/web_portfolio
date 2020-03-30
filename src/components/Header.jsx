@@ -1,18 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Zoom from 'react-reveal/Zoom';
+import Flash from 'react-reveal/Flash';
 
 function Header() {
   return (
     <div>
       <h1 className="Header-greeting">
-        <Zoom top>
+        <Flash>
           <div>
             <span>Jo Seong-cheol's </span>
             <span>Portfolio</span>
             <span>.</span>
           </div>
-        </Zoom>
+        </Flash>
       </h1>
     </div>
   );

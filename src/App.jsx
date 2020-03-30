@@ -5,7 +5,7 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Work from './components/Work';
 import Skill from './components/Skill';
 
@@ -15,6 +15,9 @@ function App() {
       <div className="Background">IKU_JO</div>
       <div id="Header">
         <Header />
+      </div>
+      <div id="Navigation">
+        <Navbar />
       </div>
       <div id="About">
         <About />

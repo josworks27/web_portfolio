@@ -97,7 +97,7 @@ export default {
     },
     {
       name: 'Blog',
-      url: '​https://velog.io/@josworks27',
+      url: 'https://velog.io/@josworks27',
     },
   ],
 };
