@@ -90,13 +90,12 @@ body {
 }
 
 .About-right {
-  width: 350px;
+  width: 300px;
   height: 400px;
-  margin-left: 5px;
+  margin-left: 35px;
   float: left;
   /* border: 1px solid red; */
-  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/KakaoTalk_Photo_2019-08-24-03-25-42+2.jpeg
-  );
+  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/KakaoTalk_Photo_2019-08-24-03-25-42.jpeg);
   background-size: cover;
 }
 

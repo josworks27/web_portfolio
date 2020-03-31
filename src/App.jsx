@@ -22,11 +22,11 @@ function App() {
       <div id="About">
         <About />
       </div>
-      <div id="Skill">
-        <Skill />
-      </div>
       <div id="Work">
         <Work />
+      </div>
+      <div id="Skill">
+        <Skill />
       </div>
       <div id="Footer">
         <Contact />
