@@ -6,6 +6,12 @@ body {
   z-index: 1;
 }
 
+a:hover {
+  color: midnightblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .App {
   width: 1000px;
   margin: 0 auto;
@@ -48,7 +54,6 @@ body {
 
 .Navigation-content li {
   list-style: none;
-  /* float: left;; */
   margin-right: 43px;
   color: tomato;
   font-size: 1em;
@@ -57,9 +62,10 @@ body {
 
 .Navigation-content li:hover {
   list-style: none;
-  float: left;;
   margin-right: 43px;
   color: midnightblue;
+  font-size: 1em;
+  line-height: 30px;
 }
 
 .Header-greeting {
@@ -92,10 +98,10 @@ body {
 .About-right {
   width: 300px;
   height: 400px;
-  margin-left: 35px;
+  margin-left: 60px;
   float: left;
   /* border: 1px solid red; */
-  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/KakaoTalk_Photo_2019-08-24-03-25-42.jpeg);
+  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/IMG_7791.jpeg);
   background-size: cover;
 }
 
@@ -130,6 +136,49 @@ body {
 }
 
 .Work-content {
+  overflow: hidden;
+  /* border: 1px solid red; */
+  width: 950px;
+  margin: 0 auto;
+}
+
+.WorkEntry-content {
+  float: left;
+  /* border: 1px solid red; */
+  width: 440px;
+  margin-right: 33px;
+  text-align: center;
+}
+
+.WorkEntry-content img {
+  height: 250px;
+}
+
+.WorkEntry-content img:hover {
+  height: 250px;
+  opacity: 0.5;
+  border: 1px dashed black;
+  box-sizing: border-box;
+}
+
+.WorkEntry-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: tomato;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.WorkEntry-content h1:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: midnightblue;
+  font-size: 1.5em;
+}
+
+.WorkEntry-content div {
+  font-family: sans-serif;
+}
+
+.Project-wrap {
   overflow: hidden;
 }
 
@@ -213,6 +262,12 @@ body {
   margin-left: 50px;
 }
 
+.Contact-mail:hover {
+  font-size: 2.2em;
+  margin-left: 50px;
+  color: tomato;
+}
+
 .Contact-social {
   color:tomato;
   margin-left: 55px;
@@ -226,14 +281,4 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover {
-  color: midnightblue;
-  cursor: pointer;
-  text-decoration: none;
-}
 
-.Contact-mail:hover {
-  font-size: 2.2em;
-  margin-left: 50px;
-  color: tomato;
-}

@@ -35,7 +35,7 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/billyzip_logo.png',
+      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/Mar-08-2020+17-50-51.gif',
       github: [
         {
           part: 'Client',
@@ -73,7 +73,7 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/stroll_logo.png',
+      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/stroll.gif',
       github: [
         {
           part: 'Client',
