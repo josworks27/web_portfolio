@@ -1,6 +1,14 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 
-function ProjectRightEntry({ description, feature, techStack, github }) {
+function ProjectRightEntry({
+  id,
+  description,
+  feature,
+  techStack,
+  github,
+  demoUrl,
+}) {
   return (
     <div className="Project-right-wrap">
       <div>
@@ -27,11 +35,23 @@ function ProjectRightEntry({ description, feature, techStack, github }) {
         <h1>Github</h1>
         <ul>
           {github.map((data, index) => (
-            <a target="_blank" rel="noopener noreferrer" href={data.url} key={index} alt="github">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={data.url}
+              key={index}
+              alt="github"
+            >
               <li>{`${data.part} Link`}</li>
             </a>
           ))}
         </ul>
+      </div>
+      <div>
+        <h1>Demo Movie</h1>
+        <video width="640" controls>
+          <source src={demoUrl} type="video/mp4" />
+        </video>
       </div>
     </div>
   );

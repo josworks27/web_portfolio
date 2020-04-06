@@ -16,7 +16,7 @@ export default {
         'Typescript & Express로 REST API를 구축하여 하우스, 리뷰, 유저의 CRUD 구현',
         'JWT 토큰 인증 과정을 Express Middleware로 하는 인증체계 구축',
         'Twilio Programmable SMS API를 이용한 인증번호 문자 전송 및 인증확인 모듈 구축',
-        'Socket.io를 이용해 유저 to 호스트, 유저 to 유저간 의사소통이 가능한 실시간 채팅기능 구현',
+        'Socket.io를 이용해 유저 to 호스트, 유저 to 유저 간의 실시간 채팅기능 구현',
         'TypeORM의 Active Record 방식의 DB 제어와 자체 알고리즘으로 하우스 검색기능 구현',
       ],
       techStack: [
@@ -35,14 +35,19 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/billyzip_logo.png',
+      imgSrc:
+        'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/Mar-08-2020+17-50-51.gif',
       github: [
         {
           part: 'Client',
           url: 'https://github.com/josworks27/BillyZip_CLIENT',
         },
-        { part: 'Server', url: 'https://github.com/josworks27/BillyZip_SERVER' },
+        {
+          part: 'Server',
+          url: 'https://github.com/josworks27/BillyZip_SERVER',
+        },
       ],
+      demoUrl: '/Videos/video2.mov',
     },
     {
       id: 1,
@@ -73,7 +78,8 @@ export default {
           stack: 'Git, AWS(S3, EC2, RDS), Postman, TablePlus',
         },
       ],
-      imgSrc: 'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/stroll_logo.png',
+      imgSrc:
+        'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/stroll.gif',
       github: [
         {
           part: 'Client',
@@ -81,6 +87,7 @@ export default {
         },
         { part: 'Server', url: 'https://github.com/josworks27/STROLL_server' },
       ],
+      demoUrl: '/Videos/video1.mov',
     },
   ],
 
@@ -97,7 +104,7 @@ export default {
     },
     {
       name: 'Blog',
-      url: '​https://velog.io/@josworks27',
+      url: 'https://velog.io/@josworks27',
     },
   ],
 };
