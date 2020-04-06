@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nanum+Gothic+Coding&family=Noto+Sans+KR&family=Noto+Serif+JP:wght@900&family=Oswald:wght@700&family=Permanent+Marker&display=swap');
+
 body {
   font-size: 16px;
   background: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Oswald', sans-serif;
   overflow-x: hidden;
   z-index: 1;
+}
+
+a:hover {
+  color: midnightblue;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .App {
@@ -34,9 +42,6 @@ body {
   border-top: ridge;
   border-bottom: ridge;
   /* border: 1px solid red; */
-  /* width: 500px;
-  margin: 20px auto; */
-  /* overflow: hidden; */
 }
 
 #About, #Skill, #Work, #Footer {
@@ -48,8 +53,8 @@ body {
 
 .Navigation-content li {
   list-style: none;
-  /* float: left;; */
   margin-right: 43px;
+  font-family: 'Noto Serif JP', serif;
   color: tomato;
   font-size: 1em;
   line-height: 30px;
@@ -57,15 +62,16 @@ body {
 
 .Navigation-content li:hover {
   list-style: none;
-  float: left;;
   margin-right: 43px;
   color: midnightblue;
+  font-size: 1em;
+  line-height: 30px;
 }
 
 .Header-greeting {
   text-align: center;
-  font-size: 4em;
-  margin-bottom: 100px;
+  font-size: 4.5em;
+  margin-bottom: 70px;
 }
 
 .Header-greeting span:nth-child(2){
@@ -77,14 +83,15 @@ body {
 }
 
 .About-content p {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 33px;
   font-size: 1.04em;
 }
 
 .About-left {
   width: 610px;
-  margin-left: 5px;
+  margin-left: 20px;
   float: left;
   /* border: 1px solid red; */
 }
@@ -92,10 +99,10 @@ body {
 .About-right {
   width: 300px;
   height: 400px;
-  margin-left: 35px;
+  margin-left: 30px;
   float: left;
   /* border: 1px solid red; */
-  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/KakaoTalk_Photo_2019-08-24-03-25-42.jpeg);
+  background-image: url(https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/me2.jpeg);
   background-size: cover;
 }
 
@@ -107,13 +114,13 @@ body {
 
 .Skill-content {
   overflow: hidden;
-  width: 950px;
+  width: 800px;
   margin: 0 auto;
 }
 
 .Skill-wrap {
   float: left;
-  width: 310px;
+  width: 260px;
   margin: 0 2px;
 }
 
@@ -124,19 +131,69 @@ body {
 }
 
 .Skill-list {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 30px;
   font-size: 1em;
 }
 
 .Work-content {
   overflow: hidden;
+  /* border: 1px solid red; */
+  width: 950px;
+  margin: 0 auto;
+}
+
+.WorkEntry-content {
+  float: left;
+  /* border: 1px solid red; */
+  width: 440px;
+  margin-right: 33px;
+  text-align: center;
+}
+
+.WorkEntry-content img {
+  height: 250px;
+}
+
+.WorkEntry-content img:hover {
+  height: 250px;
+  opacity: 0.5;
+  border: 1px dashed black;
+  box-sizing: border-box;
+}
+
+.WorkEntry-content h1 {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Oswald', sans-serif;
+  color: tomato;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.WorkEntry-content h1:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  color: midnightblue;
+  font-size: 1.5em;
+}
+
+.WorkEntry-content div {
+  /* font-family: sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Project-wrap {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .Project-left {
   /* border: 1px solid red; */
   float: left;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: 'Oswald', sans-serif;
   line-height: 21px;
   font-size: 0.9em;
   width: 350px;
@@ -152,7 +209,8 @@ body {
 
 .Project-left-wrap div{
   margin-left: 5px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .Project-left-wrap h1 {
@@ -166,20 +224,38 @@ body {
 
 .Project-right-wrap p {
   font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
   margin-left: 5px;
   line-height: 23px;
 }
 
 .Project-right-wrap a {
   color: tomato;
+  /* font-family: sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
   cursor: pointer;
   text-decoration: none;
 }
 
+.Project-right-wrap a:hover {
+  color: midnightblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Project-right-wrap div {
+  margin-bottom: 40px;
+}
+
+.Project-right-wrap div ul {
+  overflow: hidden;
+}
+
 .Project-right-wrap div ul li {
   font-size: 0.95em;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 25px;
 }
 
@@ -202,7 +278,7 @@ body {
 }
 
 .Contact-content a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courgette', cursive;
   cursor: pointer;
   text-decoration: none;
 }
@@ -211,6 +287,12 @@ body {
   color:midnightblue;
   font-size: 2.2em;
   margin-left: 50px;
+}
+
+.Contact-mail:hover {
+  font-size: 2.2em;
+  margin-left: 50px;
+  color: tomato;
 }
 
 .Contact-social {
@@ -226,14 +308,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover {
-  color: midnightblue;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.Contact-mail:hover {
-  font-size: 2.2em;
-  margin-left: 50px;
-  color: tomato;
-}
