@@ -36,11 +36,12 @@ a:hover {
 }
 
 #Navigation {
-  position: fixed;
-  top: 215px;
-  right: 60px;
-  border-top: ridge;
-  border-bottom: ridge;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  overflow: hidden;
+  /* border-top: ridge;
+  border-bottom: ridge; */
   /* border: 1px solid red; */
 }
 
@@ -53,19 +54,22 @@ a:hover {
 
 .Navigation-content li {
   list-style: none;
-  margin-right: 43px;
+  margin-right: 20px;
   font-family: 'Noto Serif JP', serif;
   color: tomato;
   font-size: 1em;
   line-height: 30px;
+  float: left;
 }
 
 .Navigation-content li:hover {
   list-style: none;
-  margin-right: 43px;
+  margin-right: 20px;
+  font-family: 'Noto Serif JP', serif;
   color: midnightblue;
   font-size: 1em;
   line-height: 30px;
+  float: left;
 }
 
 .Header-greeting {
@@ -159,7 +163,7 @@ a:hover {
 .WorkEntry-content img:hover {
   height: 250px;
   opacity: 0.5;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   box-sizing: border-box;
 }
 
@@ -172,9 +176,10 @@ a:hover {
 }
 
 .WorkEntry-content h1:hover {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: midnightblue;
   font-size: 1.5em;
+  text-decoration: none;
 }
 
 .WorkEntry-content div {
@@ -307,4 +312,3 @@ a:hover {
   /* border: 1px solid red; */
   font-family: 'Courgette', cursive;
 }
-
