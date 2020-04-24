@@ -1,12 +1,12 @@
 import React from 'react';
-import Zoom from 'react-reveal/Zoom';
+import Flash from 'react-reveal/Flash';
 import data from '../../data';
 
 function Contact() {
   return (
     <div className="Contact-wrap">
       <h1>Contact</h1>
-      <Zoom>
+      <Flash>
         <div className="Contact-content">
           <a
             className="Contact-mail"
@@ -31,7 +31,7 @@ function Contact() {
             ))}
           </ul>
         </div>
-      </Zoom>
+      </Flash>
 
       <div className="footer">
         <span role="img" aria-label="Rainbow">

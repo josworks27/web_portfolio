@@ -47,7 +47,8 @@ export default {
           url: 'https://github.com/josworks27/BillyZip_SERVER',
         },
       ],
-      demoUrl: '/Videos/video2.mov',
+      uniqueTitle: 'BillyZip demo movie',
+      demoUrl: 'https://www.youtube.com/embed/eGd4Ph8F9yg',
     },
     {
       id: 1,
@@ -87,7 +88,8 @@ export default {
         },
         { part: 'Server', url: 'https://github.com/josworks27/STROLL_server' },
       ],
-      demoUrl: '/Videos/video1.mov',
+      uniqueTitle: 'Stroll demo movie',
+      demoUrl: 'https://www.youtube.com/embed/5ENY1775rPs',
     },
   ],
 

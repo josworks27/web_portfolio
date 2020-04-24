@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ProjectRightEntry({
   id,
@@ -7,6 +8,7 @@ function ProjectRightEntry({
   feature,
   techStack,
   github,
+  uniqueTitle,
   demoUrl,
 }) {
   return (
@@ -49,9 +51,21 @@ function ProjectRightEntry({
       </div>
       <div>
         <h1>Demo Movie</h1>
-        <video width="640" controls>
-          <source src={demoUrl} type="video/mp4" />
-        </video>
+        <iframe
+          id={id}
+          title={uniqueTitle}
+          width="560"
+          height="315"
+          src={demoUrl}
+          frameBorder="0"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+      <div>
+        <Link to="/">
+          <p>Back</p>
+        </Link>
       </div>
     </div>
   );
