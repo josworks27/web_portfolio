@@ -6,8 +6,8 @@ import Project from './pages/Project';
 function App() {
   return (
     <div>
-      <Route exact path="/" component={Home} />
-      <Route path="/projects/:id" component={Project} />
+      <Route exact path="/web_portfolio" component={Home} />
+      <Route path="/web_portfolio/projects/:id" component={Project} />
     </div>
   );
 }

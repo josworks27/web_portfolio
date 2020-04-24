@@ -63,7 +63,7 @@ function ProjectRightEntry({
         />
       </div>
       <div>
-        <Link to="/">
+        <Link to="/web_portfolio">
           <p>Back</p>
         </Link>
       </div>
