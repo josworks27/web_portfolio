@@ -36,7 +36,7 @@ export default {
         },
       ],
       imgSrc:
-        'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/Mar-08-2020+17-50-51.gif',
+        'https://portfolio-ikujo.s3.ap-northeast-2.amazonaws.com/biilyzip.gif',
       github: [
         {
           part: 'Client',
@@ -80,7 +80,7 @@ export default {
         },
       ],
       imgSrc:
-        'https://jo-portfolio.s3.ap-northeast-2.amazonaws.com/photo/stroll.gif',
+        'https://portfolio-ikujo.s3.ap-northeast-2.amazonaws.com/stroll.gif',
       github: [
         {
           part: 'Client',
